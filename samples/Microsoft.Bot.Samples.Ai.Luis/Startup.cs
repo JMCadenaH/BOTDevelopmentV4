@@ -35,8 +35,8 @@ namespace Microsoft.Bot.Samples.Ai.Luis
             {
                 options.CredentialProvider = new ConfigurationCredentialProvider(Configuration);
 
-                string luisModelId = "Calendar";
-                string luisSubscriptionKey = "8370cc23bf264a3ea5d38708eb39462b";
+                string luisModelId = "";
+                string luisSubscriptionKey = "";
                 Uri luisUri = new Uri("https://westus.api.cognitive.microsoft.com/luis/v2.0/apps/");
 
                 var luisModel = new LuisModel(luisModelId, luisSubscriptionKey, luisUri);
